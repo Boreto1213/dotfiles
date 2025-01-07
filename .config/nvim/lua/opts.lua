@@ -67,3 +67,13 @@ vim.opt.inccommand = "split"
 
 -- -- Cursor
 vim.guicorsor = "n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20"
+
+-- Set tab to 2 spaces for JavaScript, TypeScript, JSX, and TSX files
+vim.api.nvim_create_autocmd("FileType", {
+    pattern = { "javascript", "typescript", "javascriptreact", "typescriptreact" },
+    callback = function()
+        vim.opt_local.tabstop = 2
+        vim.opt_local.shiftwidth = 2
+        vim.opt_local.expandtab = true
+    end,
+})
