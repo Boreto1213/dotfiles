@@ -1,4 +1,4 @@
-# jordibeen dotfiles
+# boreto's dotfiles
 
 ## Configure git
 Set up aliasing
