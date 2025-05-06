@@ -1,5 +1,6 @@
 bat
 btop
+cbonsai
 doctl
 fd
 fzf
@@ -10,10 +11,12 @@ jq
 k6
 k9s
 kubernetes-cli
+meetingbar
 neofetch
 neovim
 nmap
 node
+openmtp
 qrencode
 parquet-cli
 pgcli
