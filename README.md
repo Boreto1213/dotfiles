@@ -4,7 +4,7 @@
 Set up aliasing
 ```sh
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-git clone --bare git@github.com:jordibeen/dotfiles.git $HOME/.dotfiles
+git clone --bare git@github.com:Boreto1213/dotfiles.git $HOME/.dotfiles
 ```
 
 Hide untracked files
