@@ -120,6 +120,17 @@ local plugins = {
 
     -- Code block commenting
     "tpope/vim-commentary",
+
+    -- Surround selection
+    {
+        "kylechui/nvim-surround",
+        version = "^3.0.0",
+        event = "VeryLazy",
+        config = function()
+            require("nvim-surround").setup({
+            })
+        end
+    }
 }
 
 require("lazy").setup(plugins, {})
