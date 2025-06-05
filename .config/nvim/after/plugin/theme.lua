@@ -1,6 +1,6 @@
 -- Catppuccin theme
 require("catppuccin").setup({
-    flavour = "frappe",
+    flavour = "mocha",
     transparent_background = true,
     term_colors = false,
     integrations = {
